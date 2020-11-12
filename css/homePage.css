@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Underdog&display=swap');
+html{
+    padding: 0;
+}
+
+body{
+    margin: 0;
+}
+header{
+    background-color: black;
+    width: 100%;
+    height: 65px;
+}
+header img{
+    float: left;
+    margin: 15px;
+    height:40px; 
+    width:150px;
+}
+header table{
+    text-transform: uppercase;
+    padding-top: 18px;
+    padding-left: 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+table a{
+    margin-right: 25px;
+    font-family: Underdog;
+    color: white;
+    text-decoration: none;
+}
+table a:hover{
+    transition: all 1s;
+    text-decoration: underline;
+}
