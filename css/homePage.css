@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Underdog&display=swap');
 html{
     padding: 0;
 }
@@ -6,31 +5,74 @@ html{
 body{
     margin: 0;
 }
+
+
 header{
     background-color: black;
     width: 100%;
     height: 65px;
+    position: fixed;
+    z-index: 100;
 }
 header img{
     float: left;
-    margin: 15px;
-    height:40px; 
-    width:150px;
+    padding: 10px;
+    height:45px; 
+    width:60px;
 }
-header table{
+header img:hover{
+    content: url("../images/BDOlogo3.png");
+    background-color: white;
+}
+header nav{
+    margin-left: 35px;
     text-transform: uppercase;
-    padding-top: 18px;
-    padding-left: 15px;
+    padding-top: 20px;
+    font-weight: bold;
     text-decoration: none;
     font-size: 18px;
 }
-table a{
-    margin-right: 25px;
-    font-family: Underdog;
+nav a{
+    padding: 25px;
     color: white;
     text-decoration: none;
+    transition: all 0.5s;
 }
-table a:hover{
-    transition: all 1s;
-    text-decoration: underline;
+nav a:hover{
+    background-color: white;
+    transition: all 0.5s;
+    color: black;
 }
+
+
+#video_heading{
+    display: inline-block;
+    position: absolute;
+    margin-top: 250px;
+    text-align: center;
+    width: 100%;
+    font-size: 100px;
+    z-index: 100;
+    color: white;
+    text-shadow: 2px 3px black;
+}
+#video_heading img{
+    width: 650px;
+    height: 250px;
+}
+#home_video{
+    margin-top: -110px;
+    width: 100%;
+    z-index: -1;
+}
+
+
+footer{
+    background-color: black;
+    width: 100%;
+    height: 65px;
+    position: relative;
+    bottom: 0;
+    text-align: center;
+}
+footer p{color: white;padding-top: 5px;}
