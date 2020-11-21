@@ -1,12 +1,25 @@
-html{
-    padding: 0;
+#video_heading{
+    position: relative;
+    margin-top: 250px;
+    text-align: center;
+    width: 100%;
+    font-size: 100px;
+    z-index: 100;
+    color: white;
+    width: 640px;
+    height: 240px;
+    left: 50%;
+    transform: translate(-50%);
 }
-
-body{
-    margin: 0;
+#home_video{
+    margin-top: 60px;
+    width: 100%;
+    position: relative;
+    z-index: -1;
 }
-
-
+.redfox{
+    margin-top: -45px;
+}
 header{
     background-color: black;
     width: 100%;
@@ -16,9 +29,9 @@ header{
 }
 header img{
     float: left;
-    padding: 10px;
-    height:45px; 
-    width:60px;
+    padding: 12px;
+    height:65px; 
+    width:80px;
 }
 header img:hover{
     content: url("../images/BDOlogo3.png");
@@ -33,7 +46,7 @@ header nav{
     font-size: 18px;
 }
 nav a{
-    padding: 25px;
+    padding: 21px;
     color: white;
     text-decoration: none;
     transition: all 0.5s;
@@ -44,35 +57,8 @@ nav a:hover{
     color: black;
 }
 
-
-#video_heading{
-    display: inline-block;
-    position: absolute;
-    margin-top: 250px;
-    text-align: center;
-    width: 100%;
-    font-size: 100px;
-    z-index: 100;
-    color: white;
-    text-shadow: 2px 3px black;
-}
-#video_heading img{
+/* #video_heading img{
     width: 650px;
     height: 250px;
-}
-#home_video{
-    margin-top: -110px;
-    width: 100%;
-    z-index: -1;
-}
+} */
 
-
-footer{
-    background-color: black;
-    width: 100%;
-    height: 65px;
-    position: relative;
-    bottom: 0;
-    text-align: center;
-}
-footer p{color: white;padding-top: 5px;}
