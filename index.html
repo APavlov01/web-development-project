@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<title>Home</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/homePage.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-highway.css">
+
+<body id="mainPage">
+
+    <div class="w3-top navbar">
+        <div class="w3-bar w3-theme-d2 w3-left-align">
+            <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2"
+                href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+            <a href="index.html" class="w3-bar-item w3-button w3-hover-white"><i class="fa fa-home"></i></a>
+            <a href="classes.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Classes</a>
+            <a href="screenshots.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Screenshots</a>
+            <a href="about.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">About</a>
+            <a href="contact.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Contact</a>
+            <div class="w3-dropdown-hover w3-hide-small">
+                <button class="w3-button dropdownmenu w3-hover-white" title="Notifications">Links <i
+                        class="fa fa-caret-down"></i></button>
+                <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+                    <a href="https://www.pearlabyss.com/en-US/Board/Report" target="_blank"
+                        class="w3-bar-item w3-button">Pearl
+                        Abyss</a>
+                    <a href="https://www.kakaogamescorp.com/" target="_blank" class="w3-bar-item w3-button">Kakao
+                        Games</a>
+                    <a href="https://www.playredfox.com/" target="_blank" class="w3-bar-item w3-button">RedFox Games</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium ">
+            <a href="classes.html" class="w3-bar-item w3-button w3-hover-white">Classes</a>
+            <a href="screenshots.html" class="w3-bar-item w3-button w3-hover-white">Screenshots</a>
+            <a href="about.html" class="w3-bar-item w3-button w3-hover-white">About</a>
+            <a href="contact.html" class="w3-bar-item w3-button w3-hover-white">Contact</a>
+        </div>
+    </div>
+
+    <div class="w3-display-container w3-animate-opacity">
+        <video id="home_video" autoplay="autoplay" loop="loop" muted="muted">
+            <source type="video/mp4" src="downloads/homevideo.mp4">
+        </video>
+
+    </div>
+
+    <div class="w3-container w3-padding-64 w3-center" id="team">
+        <h1 style="margin-bottom: 25px;">DEVELOPERS</h1>
+        <div class="w3-row"><br>
+
+            <div class="w3-third w3-container w3-image w3-mobile w3-margin-bottom">
+                <img src="images/pearl.png" style="width:45%; position: relative;" class="w3-hover-opacity">
+            </div>
+
+            <div class="w3-third w3-container w3-image w3-mobile w3-margin-bottom">
+                <img src="images/kakao.png" style="width:45%; position: relative;" class="w3-hover-opacity">
+            </div>
+
+            <div class="w3-third w3-container w3-image w3-mobile w3-margin-top">
+                <img src="images/redfox.png" style="width:45%; position: relative;" class="w3-hover-opacity redfox">
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Work Row -->
+    <div class="w3-row-padding w3-padding-64 w3-theme-l1" id="work">
+
+        <div class="w3-quarter">
+            <h2>The story of the Black Spirit</h2>
+            <p>A massive meteor crashed on the planet in prehistoric times. This older ancient meteor took a much more
+                dramatic toll on the planet’s ecosystem: It introduced the black stones. In fact, those black stones
+                actually formed The Great Valencian Black Desert. In a striking similarity to the Guild Wars franchise’s
+                Crystal Desert in which the grains of sand are actually microscopic crystals, the Black Desert’s “sand”
+                is primarily composed of microscopic black stones. And that’s where the Black Desert – and the game
+                itself – gets its name.</p>
+        </div>
+
+        <div class="w3-quarter">
+            <div class="w3-card w3-white">
+                <img src="images/black1.jpg" alt="black1" style="width:100%;">
+            </div>
+        </div>
+
+        <div class="w3-quarter">
+            <div class="w3-card w3-white">
+                <img src="images/black2.png" alt="black2" style="width:100%">
+            </div>
+        </div>
+
+        <div class="w3-quarter">
+            <div class="w3-card w3-white">
+                <img src="images/black3.png" alt="black3" style="width:100%">
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Pricing Row -->
+    <div class="w3-row-padding w3-center w3-padding-64">
+        <h2>Buy Black Desert Online</h2>
+        <p>Choose a pricing plan that fits your needs.</p><br>
+        <div class="w3-third w3-margin-bottom">
+            <ul class="w3-ul w3-border w3-hover-shadow">
+                <img src="https://akamai-webcdn.kgstatic.net/renewal/static/images/shop/gamepass/img_pack_basic_en.jpg"
+                    alt="" style="width:100%">
+                <li class="w3-theme-l2">
+                    <p class="w3-xlarge">Basic Package</p>
+                </li>
+                <li class="w3-padding-16">Black Desert Online Full Game</li>
+                <li class="w3-padding-16">-</li>
+                <li class="w3-padding-16">-</li>
+                <li class="w3-padding-16">-</li>
+                <li class="w3-padding-16">-</li>
+                <li class="w3-padding-16">-</li>
+                <li class="w3-padding-16">-</li>
+                <li class="w3-padding-16">-</li>
+                <li class="w3-padding-16">-</li>
+                <li class="w3-padding-16">-</li>
+                <li class="w3-padding-16">-</li>
+                <li class="w3-padding-16">-</li>
+                <li class="w3-padding-16">-</li>
+                <li class="w3-padding-16">-</li>
+                <li class="w3-padding-16">-</li>
+                <li class="w3-padding-16">
+                    <h2 class="w3-wide"><i class="fa fa-eur"></i><b>9.99</b></h2>
+                </li>
+                <li class="w3-theme-l5 w3-padding-24">
+                    <a class="w3-button w3-highway-red w3-padding-large" href="https://www.blackdesertonline.com/shop/package" target="_blank"><i class="fa fa-shopping-cart"></i> BUY
+                        NOW</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="w3-third w3-margin-bottom">
+            <ul class="w3-ul w3-border w3-hover-shadow">
+                <img src="https://akamai-webcdn.kgstatic.net/renewal/static/images/shop/gamepass/img_pack_standard_en.jpg"
+                    alt="" style="width: 100%;">
+                <li class="w3-theme">
+
+                    <p class="w3-xlarge">Standard Package</p>
+                </li>
+                <li class="w3-padding-16">Black Desert Online Full Game</li>
+                <li class="w3-padding-16">Value Pack (15 Days) x1</li>
+                <li class="w3-padding-16">Inventory +8 Expansion Coupon x1</li>
+                <li class="w3-padding-16">Trainer's Flute (Permanent) x1</li>
+                <li class="w3-padding-16">Tier 7 White Horse (Female) x1</li>
+                <li class="w3-padding-16">Classic Outfit Box x1</li>
+                <li class="w3-padding-16">Polar Bear (Pet) x1</li>
+                <li class="w3-padding-16">Virtual Currency (1,000 Pearls)</li>
+                <li class="w3-padding-16">20% Discount Coupon (Pearl Shop) x1</li>
+                <li class="w3-padding-16">-</li>
+                <li class="w3-padding-16">-</li>
+                <li class="w3-padding-16">-</li>
+                <li class="w3-padding-16">-</li>
+                <li class="w3-padding-16">-</li>
+                <li class="w3-padding-16">-</li>
+                <li class="w3-padding-16">
+                    <h2 class="w3-wide"><i class="fa fa-eur"></i><b>39.99</b></h2>
+                </li>
+                <li class="w3-theme-l5 w3-padding-24">
+                    <a class="w3-button w3-highway-red w3-padding-large" href="https://www.blackdesertonline.com/shop/package" target="_blank"><i class="fa fa-shopping-cart"></i> BUY
+                        NOW</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="w3-third w3-margin-bottom">
+            <ul class="w3-ul w3-border w3-hover-shadow">
+                <img src="https://akamai-webcdn.kgstatic.net/renewal/static/images/shop/gamepass/img_pack_deluxe_en.jpg"
+                    alt="" style="width: 100%;">
+                <li style="background-color: #FFBF00">
+                    <p class="w3-xlarge">Deluxe Package</p>
+                </li>
+                <li class="w3-padding-16">Black Desert Online Full Game</li>
+                <li class="w3-padding-16">Value Pack (15 Days) x2</li>
+                <li class="w3-padding-16">Secret Book of Old Moon (15 Days) x1</li>
+                <li class="w3-padding-16">Inventory +8 Expansion Coupon x3</li>
+                <li class="w3-padding-16">Trainer's Flute (Permanent) x1</li>
+                <li class="w3-padding-16">Tier 7 White Horse (Female) x1</li>
+                <li class="w3-padding-16">Classic Outfit Box x1</li>
+                <li class="w3-padding-16">Premium Outfit Box x1</li>
+                <li class="w3-padding-16">Polar Bear (Pet) x1</li>
+                <li class="w3-padding-16">Hedgehog (Pet) x1</li>
+                <li class="w3-padding-16">Wizard Gosphy (Pet) x1</li>
+                <li class="w3-padding-16">Storage Maid x1</li>
+                <li class="w3-padding-16">Transaction Maid x1</li>
+                <li class="w3-padding-16">Virtual Currency (2,500 Pearls)</li>
+                <li class="w3-padding-16">20% Discount Coupon (Pearl Shop) x1</li>
+                <li class="w3-padding-16">
+                    <h2 class="w3-wide"><i class="fa fa-eur"></i><b>99.99</b></h2>
+                </li>
+                <li class="w3-theme-l5 w3-padding-24">
+                    <a class="w3-button w3-highway-red w3-padding-large" href="https://www.blackdesertonline.com/shop/package" target="_blank"><i class="fa fa-shopping-cart"></i> BUY
+                        NOW</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+
+    <!-- Image of location/map -->
+    <img src="images/gamelogo.jpg" class="w3-image w3-greyscale-min" style="width:100%;">
+
+    <!-- Footer -->
+    <footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
+        <div style="position:relative;bottom:40px;z-index:1;" class="w3-tooltip w3-center">
+            <a class="w3-button w3-theme" style="border-radius: 35px;" href="#mainPage"><span class="w3-xlarge">
+                    <i class="fa fa-chevron-circle-up"></i></span></a>
+        </div>
+        <h4>Follow Us</h4>
+        <a class="w3-button w3-large w3-highway-red socialicon" href="https://www.facebook.com/BlackDesertOnline" target="_blank"
+            title="Facebook"><i class="fa fa-facebook"></i></a>
+        <a class="w3-button w3-large w3-highway-red socialicon"
+            href="https://twitter.com/BDO_News?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"
+            title="Twitter"><i class="fa fa-twitter"></i></a>
+        <a class="w3-button w3-large w3-highway-red socialicon" href="https://www.instagram.com/blackdesertonline_official/?hl=en"
+            target="_blank" title="Google +"><i class="fa fa-instagram"></i></a>
+
+
+    </footer>
+
+    <script>
+        // Script for side navigation
+        function w3_open() {
+            var x = document.getElementById("mySidebar");
+            x.style.width = "300px";
+            x.style.paddingTop = "10%";
+            x.style.display = "block";
+        }
+
+        // Close side navigation
+        function w3_close() {
+            document.getElementById("mySidebar").style.display = "none";
+        }
+
+        // Used to toggle the menu on smaller screens when clicking on the menu button
+        function openNav() {
+            var x = document.getElementById("navDemo");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+    </script>
+
+</body>
+
+</html>

@@ -12,53 +12,121 @@
     transform: translate(-50%);
 }
 #home_video{
-    margin-top: 60px;
+    margin-top: 30px;
     width: 100%;
     position: relative;
     z-index: -1;
 }
+.imagebefore{
+    opacity: 0.75;
+}
+.imagebefore:hover{
+    opacity: 1;
+    transform: scale(1.1);
+    transition: 0.5s all;
+    box-shadow: 10px 10px 100px grey;
+}
+.socialicon{
+    border-radius: 10px;
+}
+
+
+
+.classesheading{
+    animation: 3s slide-up-hashashin;
+    color: white;
+    margin-top: 500px;
+    z-index: 1;
+    margin-left: 50px;
+    position: absolute;
+}
+.classesheading2{
+    animation: 2s slide-up-new-class;
+    color: white;
+    margin-top: 400px;
+    z-index: 1;
+    margin-left: 160px;
+    position: absolute;
+}
+.learnmorehash{
+    animation: 4s slide-up-learn;
+    margin-top: 620px;
+    position: absolute;
+    border: 3px solid rgb(185, 11, 5);
+    border-radius: 15px;
+    background-color:transparent; 
+    padding:15px;
+    z-index: 1;
+    color: white;
+    margin-left: 230px;
+}
+.learnmorehash a{
+    padding: 25px;
+    font-size: 25px;
+}
+.learnmorehash:hover{
+    border:3px solid black;
+    transition: 0.5s all;
+    background-color: grey;
+    color: black;
+}
+@keyframes slide-up-learn{
+    from{
+        opacity: 0;
+        margin-top: 750px;
+    }
+    to{
+        opacity: 1;
+        margin-top: 620px;
+    }
+}
+@keyframes slide-up-new-class{
+    from{
+        opacity: 0;
+        margin-top: 500px;
+    }
+    to{
+        opacity: 1;
+        margin-top: 400px;
+    }
+}
+@keyframes slide-up-hashashin{
+    from{
+        opacity: 0;
+        margin-top: 600px;
+    }
+    to{
+        opacity: 1;
+        margin-top: 500px;
+    }
+}
+
+
+
+
+.classcontainer{
+    margin-left: 5px;
+}
 .redfox{
     margin-top: -45px;
 }
-header{
+.navbar{
     background-color: black;
     width: 100%;
-    height: 65px;
     position: fixed;
     z-index: 100;
 }
-header img{
+#top_img{
     float: left;
-    padding: 12px;
-    height:65px; 
-    width:80px;
+    /* padding: 12px; */
+    height:35px; 
+    width:45px;
 }
-header img:hover{
-    content: url("../images/BDOlogo3.png");
-    background-color: white;
-}
-header nav{
-    margin-left: 35px;
-    text-transform: uppercase;
-    padding-top: 20px;
-    font-weight: bold;
-    text-decoration: none;
-    font-size: 18px;
-}
-nav a{
+.navbar a{
     padding: 21px;
-    color: white;
     text-decoration: none;
     transition: all 0.5s;
-}
-nav a:hover{
-    background-color: white;
-    transition: all 0.5s;
-    color: black;
 }
 
-/* #video_heading img{
-    width: 650px;
-    height: 250px;
-} */
+
 
