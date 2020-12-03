@@ -1,4 +1,4 @@
-#video_heading{
+#video_heading {
     position: relative;
     margin-top: 250px;
     text-align: center;
@@ -11,28 +11,44 @@
     left: 50%;
     transform: translate(-50%);
 }
-#home_video{
+
+#home_video {
     margin-top: 30px;
     width: 100%;
     position: relative;
     z-index: -1;
 }
-.imagebefore{
+
+.imagebefore {
     opacity: 0.75;
 }
-.imagebefore:hover{
+
+.imagebefore:hover {
     opacity: 1;
-    transform: scale(1.1);
+    transform: scale(1.05);
     transition: 0.5s all;
     box-shadow: 10px 10px 100px grey;
 }
-.socialicon{
+
+.socialicon {
     border-radius: 10px;
 }
 
+.headimagecontainer {
+    width: 100%;
+    border: 2px solid red;
+    height: 950px;
+    margin-top: 35px;
+    opacity: 0.95;
+    z-index: -1;
+    background-image: url(../images/allclasses.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
 
-
-.classesheading{
+.classesheading {
     animation: 3s slide-up-hashashin;
     color: white;
     margin-top: 500px;
@@ -40,7 +56,8 @@
     margin-left: 50px;
     position: absolute;
 }
-.classesheading2{
+
+.classesheading2 {
     animation: 2s slide-up-new-class;
     color: white;
     margin-top: 400px;
@@ -48,85 +65,89 @@
     margin-left: 160px;
     position: absolute;
 }
-.learnmorehash{
+
+.learnmorehash {
     animation: 4s slide-up-learn;
     margin-top: 620px;
     position: absolute;
     border: 3px solid rgb(185, 11, 5);
     border-radius: 15px;
-    background-color:transparent; 
-    padding:15px;
+    background-color: transparent;
+    padding: 15px;
     z-index: 1;
     color: white;
     margin-left: 230px;
 }
-.learnmorehash a{
+
+.learnmorehash a {
     padding: 25px;
     font-size: 25px;
 }
-.learnmorehash:hover{
-    border:3px solid black;
+
+.learnmorehash:hover {
+    border: 3px solid black;
     transition: 0.5s all;
     background-color: grey;
     color: black;
 }
-@keyframes slide-up-learn{
-    from{
+
+@keyframes slide-up-learn {
+    from {
         opacity: 0;
         margin-top: 750px;
     }
-    to{
+    to {
         opacity: 1;
         margin-top: 620px;
     }
 }
-@keyframes slide-up-new-class{
-    from{
+
+@keyframes slide-up-new-class {
+    from {
         opacity: 0;
         margin-top: 500px;
     }
-    to{
+    to {
         opacity: 1;
         margin-top: 400px;
     }
 }
-@keyframes slide-up-hashashin{
-    from{
+
+@keyframes slide-up-hashashin {
+    from {
         opacity: 0;
         margin-top: 600px;
     }
-    to{
+    to {
         opacity: 1;
         margin-top: 500px;
     }
 }
 
-
-
-
-.classcontainer{
+.classcontainer {
     margin-left: 5px;
 }
-.redfox{
+
+.redfox {
     margin-top: -45px;
 }
-.navbar{
+
+.navbar {
     background-color: black;
     width: 100%;
     position: fixed;
     z-index: 100;
 }
-#top_img{
+
+#top_img {
     float: left;
     /* padding: 12px; */
-    height:35px; 
-    width:45px;
+    height: 35px;
+    width: 45px;
 }
-.navbar a{
+
+.navbar a {
     padding: 21px;
     text-decoration: none;
     transition: all 0.5s;
 }
-
-
-
